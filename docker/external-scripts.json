@@ -1,0 +1,10 @@
+[
+  "hubot-diagnostics",
+  "hubot-auth",
+  "hubot-help",
+  "hubot-redis-brain",
+  "hubot-http-status",
+  "hubot-seen",
+  "hubot-calculator",
+  "hubot-bosun"
+]
