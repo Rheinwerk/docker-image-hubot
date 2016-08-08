@@ -12,6 +12,7 @@ ENV HUBOT_NAME "Carl"
 ENV HUBOT_OWNER "Lukas Pustina <lukas.pustina@gmail.com>"
 ENV HUBOT_DESCRIPTION "Your friendly Ops Minion"
 
+ENV HUBOT_SLACK_VERSON="3.4.2"
 RUN yo hubot --name="$HUBOT_NAME" --owner="$HUBOT_OWNER" --description="$HUBOT_DESCRIPTION" --adapter=slack@${HUBOT_SLACK_VERSON} --defaults
 
 # Install Scripts
