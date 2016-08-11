@@ -21,6 +21,7 @@ RUN npm install --save hubot-auth
 RUN npm install --save hubot-http-status
 RUN npm install --save hubot-seen
 RUN npm install --save hubot-calculator
+RUN npm install --save hubot-grafana
 RUN npm install --save hubot-bosun
 COPY docker/external-scripts.json /carl/
 

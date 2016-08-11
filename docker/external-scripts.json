@@ -6,5 +6,6 @@
   "hubot-http-status",
   "hubot-seen",
   "hubot-calculator",
+  "hubot-grafana",
   "hubot-bosun"
 ]
