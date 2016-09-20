@@ -17,7 +17,7 @@ RUN yo hubot --name="$HUBOT_NAME" --owner="$HUBOT_OWNER" --description="$HUBOT_D
 
 # Install Scripts
 RUN npm install --save hubot-diagnostics
-RUN npm install --save hubot-auth
+RUN npm install --save hubot-auth@1.3.0
 RUN npm install --save hubot-http-status
 RUN npm install --save hubot-seen
 RUN npm install --save hubot-calculator
